@@ -14,6 +14,7 @@ export default function Home() {
   useEffect(()=>{
     window.onscroll = function() {scrollFunction()};
     mybutton = document.getElementById("backToTop");
+    mybutton.style.display = "none";
   })
 
   function scrollFunction() {
