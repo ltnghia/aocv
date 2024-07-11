@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    assetPrefix: "./",
+    basePath: "/lava-workshop",
     reactStrictMode: true,
 };
 
