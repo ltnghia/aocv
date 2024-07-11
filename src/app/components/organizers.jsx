@@ -2,14 +2,14 @@ const Organizers = ()=>{
     return <div className="text-justify"> 
          <span className="font-bold">The organizing committee have experience in this area and rigorously published papers in this research direction:  </span>
          <ul class="list-disc list-inside space-y-2 mt-2">
-            <li>JiaXuan Li, Duc Minh Vo, Akihiro Sugimoto, Hideki Nakayama, "EVCap: Retrieval-Augmented Image Captioning with External Visual-Name Memory for Open-World Comprehension," IEEE Computer Vision and Pattern Recognition (CVPR), 2024 (to appear)</li>
-            <li>Duc Minh Vo, Quoc-An Luong, Akihiro Sugimoto, Hideki Nakayama, "A-CAP: Anticipation Captioning with Commonsense Knowledge," IEEE Computer Vision and Pattern Recognition (CVPR), 2023</li>
-            <li>Duc Minh Vo, Hong Chen, Akihiro Sugimoto, Hideki Nakayama, "NOC-REK: Novel Object Captioning with Retrieved Vocabulary from External Knowledge," IEEE Computer Vision and Pattern Recognition (CVPR), 2022</li>
-            <li>Duc Minh Vo, Akihiro Sugimoto, "Visual-Relation Conscious Image Generation from Structured-Text," European Conference on Computer Vision (ECCV), 2020</li>
-            <li>Dinh-Khoi Vo, Duy-Nam Ly, Khanh-Duy Le, Tam V. Nguyen, Minh-Triet Tran, Trung-Nghia Le, "iCONTRA: Toward Thematic Collection Design Via Interactive Concept Transfer," CHI, 2024</li>
-            <li>Minh-Hien Le, Chi-Bien Chu, Khanh-Duy Le, Tam V. Nguyen, Minh-Triet Tran, Trung-Nghia Le, "VIDES: Virtual Interior Design via Natural Language and Visual Guidance," ISMAR, 2023</li>
-            <li>Fatma Shalabi, Hichem Felouat, Huy H. Nguyen, and Isao Echizen, "Leveraging Chat-Based Large Vision-Language Models for Multimodal Out-of-Context Detection," International Conference on Advanced Information Networking and Applications (AINA), 2024.</li>
-            <li>Fatma Shalabi*, Huy H. Nguyen*, Hichem Felouat, Ching-Chun Chang, and Isao Echizen, "Image-Text Out-Of-Context Detection Using Synthetic Multimodal Misinformation," Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2023.</li>
+         <li>JiaXuan Li, Duc Minh Vo, Akihiro Sugimoto, Hideki Nakayama, &quot;EVCap: Retrieval-Augmented Image Captioning with External Visual-Name Memory for Open-World Comprehension,&quot; IEEE Computer Vision and Pattern Recognition (CVPR), 2024 (to appear)</li>
+        <li>Duc Minh Vo, Quoc-An Luong, Akihiro Sugimoto, Hideki Nakayama, &quot;A-CAP: Anticipation Captioning with Commonsense Knowledge,&quot; IEEE Computer Vision and Pattern Recognition (CVPR), 2023</li>
+        <li>Duc Minh Vo, Hong Chen, Akihiro Sugimoto, Hideki Nakayama, &quot;NOC-REK: Novel Object Captioning with Retrieved Vocabulary from External Knowledge,&quot; IEEE Computer Vision and Pattern Recognition (CVPR), 2022</li>
+        <li>Duc Minh Vo, Akihiro Sugimoto, &quot;Visual-Relation Conscious Image Generation from Structured-Text,&quot; European Conference on Computer Vision (ECCV), 2020</li>
+        <li>Dinh-Khoi Vo, Duy-Nam Ly, Khanh-Duy Le, Tam V. Nguyen, Minh-Triet Tran, Trung-Nghia Le, &quot;iCONTRA: Toward Thematic Collection Design Via Interactive Concept Transfer,&quot; CHI, 2024</li>
+        <li>Minh-Hien Le, Chi-Bien Chu, Khanh-Duy Le, Tam V. Nguyen, Minh-Triet Tran, Trung-Nghia Le, &quot;VIDES: Virtual Interior Design via Natural Language and Visual Guidance,&quot; ISMAR, 2023</li>
+        <li>Fatma Shalabi, Hichem Felouat, Huy H. Nguyen, and Isao Echizen, &quot;Leveraging Chat-Based Large Vision-Language Models for Multimodal Out-of-Context Detection,&quot; International Conference on Advanced Information Networking and Applications (AINA), 2024.</li>
+        <li>Fatma Shalabi*, Huy H. Nguyen*, Hichem Felouat, Ching-Chun Chang, and Isao Echizen, &quot;Image-Text Out-Of-Context Detection Using Synthetic Multimodal Misinformation,&quot; Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2023.</li>
         </ul>
          <span className="font-bold">The names and full contact information (email and postal addresses, fax and telephone numbers) of the organizing committee. </span>
          <ul class="list-disc list-inside space-y-4">
@@ -24,13 +24,13 @@ const Organizers = ()=>{
         </ul>
 
         <p className="mt-5">
-        The primary goal of this workshop challenge is to advance the capability of Large Language Models (LLMs) and Large Vision-Language Models (LVLMs) to accurately interpret and generate descriptive text from complex visual inputs such as charts, diagrams, and building design drawings. By leveraging the benchmark dataset provided by the TASUKI team from Softbank, participants will work towards improving the models' understanding and transcription of graphical data into markdown format. 
+        The primary goal of this workshop challenge is to advance the capability of Large Language Models (LLMs) and Large Vision-Language Models (LVLMs) to accurately interpret and generate descriptive text from complex visual inputs such as charts, diagrams, and building design drawings. By leveraging the benchmark dataset provided by the TASUKI team from Softbank, participants will work towards improving the models&apos; understanding and transcription of graphical data into markdown format. 
         </p>
         <p className="mt-2">
         Challenge Overview: Participants will develop and fine-tune LLMs and LVLMs to read and transcribe a variety of diagrams and charts, ensuring accurate interpretation and description. The workshop will focus on different types of visual data such as Data Flow Diagrams (DFDs), Class Diagrams, Gantt Charts, Building Design Drawings, etc. The models should produce transcriptions in mermaid markdown format, capturing all essential details and nuances present in the visual inputs. 
         </p>
         <p className="mt-2">
-            Dataset: The TASUKI team's benchmark dataset includes paired data consisting of visual representations (DFDs, class diagrams, Gantt charts, building design drawings, etc.) and their corresponding markdown transcriptions. This dataset serves as the foundation for training and evaluating the models developed during the workshop.  
+            Dataset: The TASUKI team&apos;s benchmark dataset includes paired data consisting of visual representations (DFDs, class diagrams, Gantt charts, building design drawings, etc.) and their corresponding markdown transcriptions. This dataset serves as the foundation for training and evaluating the models developed during the workshop.  
         </p>
         <p className="mt-2 mb-5">
         Computational Resources: Access to Beyond AI SANDBOX GPUs for University of Tokyo participants. 

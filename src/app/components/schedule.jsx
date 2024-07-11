@@ -18,7 +18,7 @@ const Schedule = () => {
             <li>The accepted papers will be published in workshop proceeding. </li>
         </ul>
         <span className="font-bold"> Challenge Track  </span>
-        <p>The primary goal of this challenge is to enhance the ability of LVLMs to accurately interpret and comprehend complex visual inputs, including charts, diagrams, and building design drawings. Utilizing the benchmark dataset provided by the TASUKI team from Softbank, participants will aim to improve the models' understanding and transcription of graphical data, enabling the models to effectively answer questions related to this graphical information. </p>
+        <p>The primary goal of this challenge is to enhance the ability of LVLMs to accurately interpret and comprehend complex visual inputs, including charts, diagrams, and building design drawings. Utilizing the benchmark dataset provided by the TASUKI team from Softbank, participants will aim to improve the models&apos; understanding and transcription of graphical data, enabling the models to effectively answer questions related to this graphical information. </p>
         <br/>
         <span className="font-bold">  Important dates (tentative)  </span>
         <ul class="list-disc list-inside space-y-2 mt-2">
