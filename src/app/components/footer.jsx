@@ -1,5 +1,5 @@
 import Image from "next/image";
-import basePath from "../../next.config";
+import basePath from "../../../next.config.mjs";
 const Footer = () => {
     return (
         <footer className="h-[10em] ">
