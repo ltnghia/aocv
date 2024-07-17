@@ -3,7 +3,7 @@ const CallForPapers = () => {
         <div className="text-justify">
             
             <p className="text-pretty mb-2">
-            We welcome people to submit papers about large vision-language models (LVLMs) to LAVA workshop. Accepted papers will be presented in our workshop and will be published in the ACCV workshop proceeding. We accept short papers (non-archived) which are up to 8 pages in ACCV format, excluding references; and long papers (archived) which are up to 16 pages in ACCV format, excluding references. Submission policies adhere to the ACCV submission policies.
+            We welcome people to submit papers about large vision-language models (LVLMs) to LAVA workshop. Accepted papers will be presented in our workshop and will be published in the ACCV workshop proceeding. <span className="font-bold">We accept short papers (non-archived) which are up to 8 pages in ACCV format, excluding references; and long papers (archived) which are up to 16 pages in ACCV format, excluding references.</span> Submission policies adhere to the ACCV submission policies.
             </p>
             
             <p>The topics in this workshop will include but are not limited to:</p>

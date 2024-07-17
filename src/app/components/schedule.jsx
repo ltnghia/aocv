@@ -22,14 +22,14 @@ const Schedule = () => {
         <br/>
         <span className="font-bold">  Important dates (tentative)  </span>
         <ul class="list-disc list-inside space-y-2 mt-2">
-            <li>Challenge track opened: 2024/7/31</li>
-            <li>Test set released: 2024/8/30</li>
-            <li>Challenge track closed: 2024/9/30</li>
-            <li>Regular paper submission deadline: 2024/9/30</li>
-            <li>Challenge track paper submission deadline: 2024/10/15</li>
-            <li>Acceptance notification: 2024/10/30</li>
-            <li>Camera-ready deadline: 2024/11/15</li>
-            <li>Workshop date: 2024/12/8~12 (TBA)</li>
+            <li>Challenge track opened: <span className="font-bold">2024/7/31</span></li>
+            <li>Test set released:  <span className="font-bold">2024/8/30</span></li>
+            <li>Challenge track closed: <span className="font-bold">2024/9/30</span></li>
+            <li>Regular paper submission deadline: <span className="font-bold">2024/9/30</span></li>
+            <li>Challenge track paper submission deadline: <span className="font-bold">2024/10/15</span></li>
+            <li>Acceptance notification: <span className="font-bold">2024/10/30</span></li>
+            <li>Camera-ready deadline: <span className="font-bold">2024/11/15</span></li>
+            <li>Workshop date: <span className="font-bold">2024/12/8~12 (TBA)</span></li>
         </ul>
     </div>
 }

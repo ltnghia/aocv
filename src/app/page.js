@@ -65,7 +65,7 @@ export default function Home() {
         body={
           <div className="flex flex-row w-full justify-center items-center ">
             <div className="flex flex-col justify-center ">
-              <Image src="/SoftBank-logo.png" alt="Soft Bank" width={200} height={200} className="sm:w-[20em] w-[12em]" />
+              {/* <Image src="/SoftBank-logo.png" alt="Soft Bank" width={200} height={200} className="sm:w-[20em] w-[12em]" /> */}
             </div>
           </div>
 
