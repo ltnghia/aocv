@@ -10,9 +10,7 @@ const Challenge = () => {
             </p> */}
 
             <p>
-            <span className="font-bold">Challenge Overview:</span>
-            <br/>
-            The primary goal of this challenge is to advance the capability of Large Vision-Language Models to accurately interpret and understand complex visual data such as Data Flow Diagrams (DFDs), Class Diagrams, Gantt Charts, and Building Design Drawings. We invite AI researchers, data scientists, and practitioners with interest and experience in natural language processing, computer vision, and multimodal learning to join this workshop challenge. Participants can register as individuals or teams. They are required to develop a model that can answer questions related to the input data. Below, we provide a few samples. Our challenge is conducted in two separate phases.
+            <span className="font-bold">Challenge Overview:</span> The primary goal of this challenge is to advance the capability of Large Vision-Language Models to accurately interpret and understand complex visual data such as Data Flow Diagrams (DFDs), Class Diagrams, Gantt Charts, and Building Design Drawings. We invite AI researchers, data scientists, and practitioners with interest and experience in natural language processing, computer vision, and multimodal learning to join this workshop challenge. Participants can register as individuals or teams. They are required to develop a model that can answer questions related to the input data. Below, we provide a few samples. Our challenge is conducted in two separate phases.
 
             <br/>
             <span className="font-bold">Datasets:</span>
@@ -28,10 +26,12 @@ const Challenge = () => {
             Final score = 0.3 * Phase 1 result + 0.5 * Phase 2 (public set) result + 0.2 * Phase 2 (private set) result.
 
             <br/>
-            <span className="font-bold">Baselines (coming soon)</span>
+            <span className="font-bold">Baselines</span> (coming soon)
 
             <br/>
-            <span className="font-bold">Submission (coming soon)</span>
+            <span className="font-bold">Submission</span> (coming soon)
+
+            <br/>
             
             <span className="font-bold">Computational Resources:</span>
             May use SoftBank SuporPOD/Beyond AI SANDBOX GPUs for University of Tokyo participants.</p>
