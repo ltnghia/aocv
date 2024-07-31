@@ -21,13 +21,17 @@ const Challenge = () => {
             </ul>
 
             <br/>
-            Please register your team information <a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform'>here</a>. We will send the link to download the dataset later.
+            Please register your team information <span className="font-bold"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform'>here</a></span>. We will send the link to download the dataset later.
+
+            <br/>
             
             <span className="font-bold">Metric:</span>
             <br/>
-            We will evaluate using MMMU metric. 
+            We will evaluate using MMMU. 
+
+            <br/>
             
-            Final score = 0.3 * Public dataset with answers + 0.5 * Public dataset without answers + 0.2 * Private dataset.
+            <span className="font-bold">Final score = 0.3 * Public dataset with answers + 0.5 * Public dataset without answers + 0.2 * Private dataset </span>
 
             <br/>
             <span className="font-bold">Baselines</span> (coming soon)
