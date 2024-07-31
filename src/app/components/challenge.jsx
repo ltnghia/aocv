@@ -22,8 +22,7 @@ const Challenge = () => {
 
             <br/>
             <br/>
-            Please register your team information <span className="font-bold"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform'>here</a></span>. We will send the link to download the dataset to the registered participants.
-
+            <span className="font-bold"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform'>Register your team information here</a></span>. We will send the link to download the dataset to registered participants.
             <br/>
             <br/>
             
@@ -43,14 +42,14 @@ const Challenge = () => {
 
             <br/>
             
-            <span className="font-bold">Prizes and Travel grant:</span>
-            We have travel grant for winner teams (one for each team). Prizes will be announced later. 
+            <span className="font-bold">Prizes and Travel Grants:</span>
+            Travel grants are available for winning teams (one per team). Prizes will be announced later.
 
 
             <br/>
             
             <span className="font-bold">Computational Resources:</span>
-            May use SoftBank SuporPOD/Beyond AI SANDBOX GPUs for University of Tokyo participants.</p>
+            Participants from the University of Tokyo may use SoftBank SuporPOD/Beyond AI SANDBOX GPUs.</p>
 
 
         </div>
