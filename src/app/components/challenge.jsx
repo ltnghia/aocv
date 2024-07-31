@@ -41,6 +41,12 @@ const Challenge = () => {
 
             <br/>
             
+            <span className="font-bold">Prizes and Travel grant:</span>
+            We have travel grant for winner teams (one for each team). Prizes will be announced later. 
+
+
+            <br/>
+            
             <span className="font-bold">Computational Resources:</span>
             May use SoftBank SuporPOD/Beyond AI SANDBOX GPUs for University of Tokyo participants.</p>
 
