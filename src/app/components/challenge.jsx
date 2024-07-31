@@ -22,7 +22,7 @@ const Challenge = () => {
 
             <br/>
             <br/>
-            Please register your team information <a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform'>here</a> We will send the link to download the dataset to the registered participants.
+            Please register your team information <span className="font-bold"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform'>here</a></span>. We will send the link to download the dataset to the registered participants.
 
             <br/>
             <br/>
