@@ -13,6 +13,9 @@ const Organizers = ()=>{
             <PersonAvatar name="Khan Md Anwarus Salam" image="/avatar.jpg" affiliation={"SoftBank, Japan"} />
             <PersonAvatar name="TASUKI Team" image="/avatar.jpg" affiliation={"SoftBank, Japan"} />
         </div>
+
+        <br/>
+        Contact: lava-workshop@googlegroups.com
        
     </div>
 }
