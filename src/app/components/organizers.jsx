@@ -4,7 +4,7 @@ const Organizers = ()=>{
     return <div className="text-justify"> 
          
         <div className="grid sm:grid-cols-4 grid-cols-2">
-            <PersonAvatar name="Minh-Duc Vo" image="/avatar.jpg" affiliation={"University of Tokyo, Japan"} />
+            <PersonAvatar name="Duc Minh Vo" image="/avatar.jpg" affiliation={"University of Tokyo, Japan"} />
             <PersonAvatar name="Huy H. Nguyen" image="/avatar.jpg" affiliation={"National Institute of Informatics, Japan"} />
             <PersonAvatar name="Trung-Nghia Le" image="/avatar.jpg" affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Akihiro Sugimoto" image="/avatar.jpg" affiliation={"National Institute of Informatics, Japan"} />
