@@ -15,7 +15,7 @@ const Organizers = ()=>{
         </div>
 
         <br/>
-        Contact: lava-workshop@googlegroups.com
+        Contact: lava-workshop(at)googlegroups.com
        
     </div>
 }
