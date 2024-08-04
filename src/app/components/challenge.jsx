@@ -11,7 +11,7 @@ const Challenge = () => {
 
             </p> */}
 
-            <p>
+            <div>
                 <span className="font-bold">Challenge Overview:</span> The primary goal of this challenge is to advance the capability of Large Vision-Language Models to accurately interpret and understand complex visual data such as Data Flow Diagrams (DFDs), Class Diagrams, Gantt Charts, and Building Design Drawings. We invite AI researchers, data scientists, and practitioners with interest and experience in natural language processing, computer vision, and multimodal learning to join this workshop challenge. Participants can register as individuals or teams. They are required to develop a model that can answer questions related to the input data. Below, we provide a few samples.
 
                 <br />
@@ -58,7 +58,7 @@ const Challenge = () => {
                 <br />
 
                 <span className="font-bold">Computational Resources:</span>
-                Participants from the University of Tokyo may use SoftBank SuporPOD/Beyond AI SANDBOX GPUs.</p>
+                Participants from the University of Tokyo may use SoftBank SuporPOD/Beyond AI SANDBOX GPUs.</div>
 
 
         </div>

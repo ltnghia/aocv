@@ -1,6 +1,6 @@
 const Speakers = ()=>{
     return <div> 
-        <ul class="list-disc list-inside space-y-2 ">
+        <ul className="list-disc list-inside space-y-2 ">
             <li>Prof. Ming-Hsuan Yang, UC Merced (tentatively confirmed)</li>
             <li>Prof. Yusuke Miyao, University of Tokyo (tentatively confirmed)</li>
             <li>Prof. Truyen Tran, Deakin University (tentatively confirmed)</li>

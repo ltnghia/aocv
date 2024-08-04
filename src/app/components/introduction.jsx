@@ -7,7 +7,7 @@ const Introduction = () => {
             </p>
 
 
-            <ul class="list-disc list-inside space-y-2 mt-2 mb-8">
+            <ul className="list-disc list-inside space-y-2 mt-2 mb-8">
                 <li>Data preprocessing and prompt engineering in LVLMs</li>
                 <li>Training/Compressing LVLMs</li>
                 <li>Self-supervised and/or unsupervised, few-/zero-shot learning in LVLMs</li>

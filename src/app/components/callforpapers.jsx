@@ -7,7 +7,7 @@ const CallForPapers = () => {
             </p>
             
             <p>The topics in this workshop will include but are not limited to:</p>
-            <ul class="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
+            <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
                 <li>Data preprocessing and prompt engineering in LVLMs</li>
                 <li>Training/Compressing LVLMs</li>
                 <li>Self-supervised and/or unsupervised, few-/zero-shot learning in LVLMs</li>
@@ -21,7 +21,8 @@ const CallForPapers = () => {
                 <li>LVLMs and other modalities</li>
                 <li>LVLMs for low resources</li>
             </ul>
-            
+            <span className="font-bold text-[1.3em]"><a href='https://l.messenger.com/l.php?u=https%3A%2F%2Fcmt3.research.microsoft.com%2FLAVA2024&h=AT0TdIIjgY7UHOlyxh36f3aAwbyZrU3x6-DvvrMVE4MHX8BgZAqLKEtWUqrlwQD3dNif7ADEmzkjAaLSSVadjVna5WQko1uGU8sze0UdnE1DUNIMGn07zOhrzSHnp29xf4e38A' className="underline text-[1.1em] text-[#232ba1]">Submit your paper here</a></span>.
+                
 
         </div>
     )

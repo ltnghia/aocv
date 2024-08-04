@@ -10,6 +10,7 @@ import Workshop from "./components/workshop";
 import CallForPapers from "./components/callforpapers";
 import Challenge from "./components/challenge";
 import ImportantDates from "./components/importantdates";
+import TechnicalSupporters from "./components/technical-supporters";
 export default function Home() {
   const topClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -61,11 +62,12 @@ export default function Home() {
       <Section title={"Workshop Schedule"} body={<div>TBA</div>} id="schedule" />
       <Section title={"Speakers"} body={<div>TBA</div>} id="speakers" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
+      <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" />
       <Section title={"Workshop Sponsors"}
         body={
           <div className="flex flex-row w-full justify-center items-center ">
             <div className="flex flex-col justify-center ">
-              {/* <Image src="/SoftBank-logo.png" alt="Soft Bank" width={200} height={200} className="sm:w-[20em] w-[12em]" /> */}
+              <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
             </div>
           </div>
 

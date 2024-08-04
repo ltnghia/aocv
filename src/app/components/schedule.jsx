@@ -1,13 +1,13 @@
 const Schedule = () => {
     return <div className="text-justify">
         This workshop will be a full-day event, including the following:
-        <ul class="list-disc list-inside space-y-2 mt-2 mb-8">
+        <ul className="list-disc list-inside space-y-2 mt-2 mb-8">
             <li>Paper presentations (oral and poster). </li>
             <li>Invited talks. </li>
             <li>Challenge track.  </li>
         </ul>
         <span className="font-bold">Paper selection process </span>
-        <ul class="list-disc list-inside space-y-2 mt-2 mb-8">
+        <ul className="list-disc list-inside space-y-2 mt-2 mb-8">
             <li>All submissions should follow the ACCV submission guideline. </li>
             <li>We accept short papers (non-archived) which are up to 8 pages in ACCV format, excluding references; and long papers (archived) which are up to 16 pages in ACCV format, excluding references.
             </li>
@@ -21,7 +21,7 @@ const Schedule = () => {
         <p>The primary goal of this challenge is to enhance the ability of LVLMs to accurately interpret and comprehend complex visual inputs, including charts, diagrams, and building design drawings. Utilizing the benchmark dataset provided by the TASUKI team from Softbank, participants will aim to improve the models&apos; understanding and transcription of graphical data, enabling the models to effectively answer questions related to this graphical information. </p>
         <br/>
         <span className="font-bold">  Important dates (tentative)  </span>
-        <ul class="list-disc list-inside space-y-2 mt-2">
+        <ul className="list-disc list-inside space-y-2 mt-2">
             <li>Challenge track opened: <span className="font-bold">2024/7/31</span></li>
             <li>Test set released:  <span className="font-bold">2024/8/30</span></li>
             <li>Challenge track closed: <span className="font-bold">2024/9/30</span></li>
