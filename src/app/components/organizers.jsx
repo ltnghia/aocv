@@ -10,7 +10,7 @@ const Organizers = ()=>{
             <PersonAvatar name="Akihiro Sugimoto" image="/sugimoto.jpg" affiliation={"National Institute of Informatics, Japan"} />
             <PersonAvatar name="Hideki Nakayama" image="/nakayama.jpg" affiliation={"University of Tokyo, Japan"} />
             <PersonAvatar name="Minh-Triet Tran" image="/tmtriet.png" affiliation={"University of Science, Vietnam"} />
-            <PersonAvatar name="Khan Md Anwarus Salam" image="/avatar.jpg" affiliation={"SoftBank, Japan"} />
+            <PersonAvatar name="Khan Md Anwarus Salam" image="/khan_salam.jpg" affiliation={"SoftBank, Japan"} />
          
         </div>
 
