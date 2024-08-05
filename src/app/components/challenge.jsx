@@ -31,7 +31,7 @@ const Challenge = () => {
 
                 <br />
                 <br />
-                <span className="font-bold"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform' className="underline text-[1.1em] text-[#232ba1]">Register your team information here</a></span>. We will send the link to download the dataset to registered participants.
+                <span className="font-bold"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform' className="underline text-[1.4em] text-[#232ba1]">Register your team information here</a></span>. We will send the link to download the dataset to registered participants.
                 <br />
                 <br />
 
@@ -44,9 +44,9 @@ const Challenge = () => {
                 <span className="font-bold">Final score = 0.3 * Public dataset without answers + 0.7 * Private dataset </span>
 
                 <br />
-                <span className="font-bold">Submission</span> (coming soon)
+                {/* <span className="font-bold">Submission</span> (coming soon)
 
-                <br />
+                <br /> */}
 
                 <span className="font-bold">Prizes and Travel Grants:</span>
                 Travel grants are available for winning teams (one per team). Prizes will be announced later.
@@ -56,7 +56,11 @@ const Challenge = () => {
 
                 <span className="font-bold">Computational Resources:</span>
                 Participants from the University of Tokyo may use SoftBank SuporPOD/Beyond AI SANDBOX GPUs.</div>
-
+                <br/>
+                <span className="font-bold "><a href='https://cmt3.research.microsoft.com/LAVA2024' className="underline text-[1.4em] text-[#232ba1]">Submit your report here</a></span>.
+                <br />
+                <span className="font-bold"><a href='https://www.codabench.org/competitions/3587' className="underline text-[1.4em] text-[#232ba1]">Submit your results here </a></span>
+                <br />
 
         </div>
     )
