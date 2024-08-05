@@ -26,7 +26,7 @@ const Challenge = () => {
                 <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
                     <li><span className="font-bold">Public dataset with answers:</span> We will build the dataset by collecting data from the internet. Participants can freely use publicly available datasets to develop their models.</li>
                     <li><span className="font-bold">Public dataset without answers:</span> We will release the dataset without answers. Participants will submit the results to our system to get the scores.</li>
-                    <li><span className="font-bold">Private dataset:</span> Participants are required to submit their reproducible implementations so that we can test them on our private dataset provided by the TASUKI team (SoftBank).</li>
+                    <li><span className="font-bold">Private dataset:</span> Participants are required to submit their reproducible implementations so that we can test them on our private dataset provided by the TASUKI team (SoftBank). The dataset may contain Japanese texts.</li>
                 </ul>
 
                 <br />
@@ -42,9 +42,6 @@ const Challenge = () => {
                 <br />
 
                 <span className="font-bold">Final score = 0.3 * Public dataset without answers + 0.7 * Private dataset </span>
-
-                <br />
-                <span className="font-bold">Baselines</span> (coming soon)
 
                 <br />
                 <span className="font-bold">Submission</span> (coming soon)
