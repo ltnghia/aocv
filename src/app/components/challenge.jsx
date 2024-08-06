@@ -55,7 +55,7 @@ const Challenge = () => {
                 <br />
 
                 <span className="font-bold">Computational Resources:</span>
-                Participants from the University of Tokyo may use SoftBank SuporPOD/Beyond AI SANDBOX GPUs.</div>
+                Participants from the University of Tokyo may use SoftBank Beyond AI SANDBOX GPUs.</div>
                 <br/>
                 <span className="font-bold "><a href='https://cmt3.research.microsoft.com/LAVA2024' className="underline text-[1.4em] text-[#232ba1]">Submit your report here</a></span>.
                 <br />
