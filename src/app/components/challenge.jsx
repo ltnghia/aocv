@@ -25,10 +25,10 @@ const Challenge = () => {
                 <p className="font-bold mt-5">Datasets:</p>
                 <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
                     <li><span className="font-bold">Public dataset with answers:</span> We will build the dataset by collecting data from the internet. Participants can freely use publicly available datasets to develop their models.</li>
-                    <li><span className="font-bold">Public dataset without answers:</span> We will release the dataset without answers. Participants will submit the results to our system to get the scores.</li>
-                    <li><span className="font-bold">Private dataset:</span> Participants are required to submit their reproducible implementations so that we can test them on our private dataset provided by the TASUKI team (SoftBank). The dataset may contain Japanese texts.</li>
+                    <li><span className="font-bold">Public dataset without answers:</span> We will release the dataset without answers. </li>
+                    <li><span className="font-bold">Private dataset:</span> The TASUKI team (SoftBank) provides this dataset, which may contain Japanese texts.</li>
                 </ul>
-
+                <div className="mt-2">Participants are required to submit the results to our system to get the scores.</div>
                 <br />
                 <br />
                 <span className="font-bold"><a href='https://docs.google.com/forms/d/e/1FAIpQLScvuNuXqoHGW3SKhF2WYN34WhFarVp3Dx6gEXMX4dr4xT7T6A/viewform' className="underline text-[1.4em] text-[#232ba1]">Register your team information here</a></span>. We will send the link to download the dataset to registered participants.
