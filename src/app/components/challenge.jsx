@@ -41,7 +41,7 @@ const Challenge = () => {
 
                 <br />
 
-                <span className="font-bold">Final score = 0.3 * Public dataset without answers + 0.7 * Private dataset </span>
+                <span className="font-bold">Final score = 0.3 * Public dataset + 0.7 * Private dataset </span>
 
                 <br />
                 {/* <span className="font-bold">Submission</span> (coming soon)
