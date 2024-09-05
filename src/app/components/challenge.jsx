@@ -27,7 +27,7 @@ const Challenge = () => {
                     <li><span className="font-bold">Public dataset:</span> We will release our dataset collected from the internet. It contains about 3,000 samples. </li>
                     <li><span className="font-bold">Private dataset:</span> The TASUKI team (SoftBank) provides this dataset. It contains about 1,100 samples.</li>
                 </ul>
-                <div className="mt-2">The data contain English and Japanese texts. Please carefully read the <a href='https://docs.google.com/document/d/1VvKlzi6KfpaYuN_YuhQGzphRuXyJlOM_/edit?usp=sharing&ouid=103136956899952170060&rtpof=true&sd=true' className="underline text-[1.4em] text-[#232ba1]">Terms and Conditions</a> for further information about the license, data, and submission instructions.</div>
+                <div className="mt-2">The data contain English and Japanese texts. <span className="font-bold"><a href=' https://drive.google.com/drive/folders/1YBH2FyYfRpppI-hhJTSVgqNt_uBQjY6E' className="underline text-[1.4em] text-[#232ba1]">You can download the data here</a></span>. Please carefully read the <a href='https://docs.google.com/document/d/1VvKlzi6KfpaYuN_YuhQGzphRuXyJlOM_/edit?usp=sharing&ouid=103136956899952170060&rtpof=true&sd=true' className="underline text-[1.4em] text-[#232ba1]">Terms and Conditions</a> for further information about the license, data, and submission instructions.</div>
                 <div className="mt-2">Participants are required to submit the results to our system to get the scores.</div>
                 <br />
                 <br />
