@@ -61,7 +61,7 @@ const Challenge = () => {
                     <td>0.85</td>
                   </tr>
                   <tr>
-                    <td>MMLab-UIT</td>
+                    <td>MMLAB-UIT</td>
                     <td>0.83</td>
                     <td>0.84</td>
                     <td>0.84</td>
