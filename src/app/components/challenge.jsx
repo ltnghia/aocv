@@ -44,9 +44,37 @@ const Challenge = () => {
                 <span className="font-bold">Final score = 0.3 * Public dataset + 0.7 * Private dataset </span>
 
                 <br />
-                {/* <span className="font-bold">Submission</span> (coming soon)
+                <span className="font-bold">Results</span>
+                <br/>
 
-                <br /> */}
+                <table>
+                  <tr>
+                    <th>Team Name</th>
+                    <th>Public score</th>
+                    <th>Privare score</th>
+                    <th>Final score</th>
+                  </tr>
+                  <tr>
+                    <td>WAS</td>
+                    <td>0.85</td>
+                    <td>0.85</td>
+                    <td>0.85</td>
+                  </tr>
+                  <tr>
+                    <td>MMLab-UIT</td>
+                    <td>0.83</td>
+                    <td>0.84</td>
+                    <td>0.84</td>
+                  </tr>
+                  <tr>
+                    <td>V1olet</td>
+                    <td>0.82</td>
+                    <td>0.82</td>
+                    <td>0.82</td>
+                  </tr>
+                </table>
+
+                <br /> 
 
                 <span className="font-bold">Prizes and Travel Grants:</span>
                 Travel grants are available for winning teams (one per team). Prizes will be announced later.
