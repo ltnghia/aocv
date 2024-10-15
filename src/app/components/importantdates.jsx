@@ -8,12 +8,12 @@ const ImportantDates = () => {
             <li>Regular paper submission deadline: <span className="font-bold">2024/9/30</span></li>
             <li>Challenge track paper submission deadline: <span className="font-bold">2024/10/15</span></li>
             <li>
-                    Acceptance notification: 
+                    Acceptance notification:&nbsp;
                     <span style={{textDecoration: 'line-through'}}>2024/10/30</span>
                     <span className="font-bold"> 2024/10/18</span>
                 </li>
                 <li>
-                    Camera-ready deadline: 
+                    Camera-ready deadline:&nbsp;
                     <span style={{textDecoration: 'line-through'}}>2024/11/15</span>
                     <span className="font-bold"> 2024/10/20</span>
                 </li>
