@@ -1,7 +1,3 @@
-.line-through {
-    text-decoration: line-through;
-}
-
 const ImportantDates = () => {
     return <div className="text-justify">
         
