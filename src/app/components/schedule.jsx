@@ -1,6 +1,15 @@
 const Schedule = () => {
     return <div className="text-justify">
-        This workshop will be a full-day event, including the following:
+        <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
+            <li> <span className="font-bold">13:30</span> - Opening Remark</li>
+            <li><span className="font-bold">13:40</span> - Keynote Talk 1</li>
+            <li><span className="font-bold">14:40</span> - Poster session + Coffee break</li>
+            <li><span className="font-bold">15:50</span> - Keynote Talk 2</li>
+            <li><span className="font-bold">16:40</span> - Challenge Award</li>
+            <li><span className="font-bold">16:55</span> - Closing Remark</li>
+            
+        </ul>
+{/*         This workshop will be a full-day event, including the following:
         <ul className="list-disc list-inside space-y-2 mt-2 mb-8">
             <li>Paper presentations (oral and poster). </li>
             <li>Invited talks. </li>
@@ -30,7 +39,7 @@ const Schedule = () => {
             <li>Acceptance notification: <span className="font-bold">2024/10/30</span></li>
             <li>Camera-ready deadline: <span className="font-bold">2024/11/15</span></li>
             <li>Workshop date: <span className="font-bold">2024/12/8~12 (TBA)</span></li>
-        </ul>
+        </ul> */}
     </div>
 }
 export default Schedule;
