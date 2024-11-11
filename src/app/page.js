@@ -59,7 +59,7 @@ export default function Home() {
       <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
       <Section title={"LAVA Challenge"} body={<Challenge />} id="challenge" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
-      <Section title={"Workshop Schedule"} body={<WorkshopSchedule />} id="schedule" />
+      <Section title={"Workshop Schedule"} body={<Schedule />} id="schedule" />
       <Section title={"Speakers"} body={<div>TBA</div>} id="speakers" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
       <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" />
