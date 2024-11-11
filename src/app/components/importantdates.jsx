@@ -17,7 +17,7 @@ const ImportantDates = () => {
                     <span style={{textDecoration: 'line-through'}}>2024/11/15</span>
                     <span className="font-bold"> 2024/10/20</span>
                 </li>
-            <li>Workshop date: <span className="font-bold">TBA</span></li>
+            <li>Workshop date: <span className="font-bold">2024/12/8 (Afternoon)</span></li>
         </ul>
     </div>
 }
