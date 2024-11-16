@@ -1,15 +1,10 @@
 const Speakers = ()=>{
     return <div> 
-        <ul className="list-disc list-inside space-y-2 ">
-            <li>Prof. Ming-Hsuan Yang, UC Merced (tentatively confirmed)</li>
-            <li>Prof. Yusuke Miyao, University of Tokyo (tentatively confirmed)</li>
-            <li>Prof. Truyen Tran, Deakin University (tentatively confirmed)</li>
-            <li>Dr. Hung Bui, VinAI (tentatively confirmed)</li>
-            <li>Dr. Du Tran, FAIR (tentatively confirmed)</li>
-            <li>Dr. AprilPyone MaungMaung, National Institute of Informatics (Japan) (confirmed)</li>
-            <li>Dr. Noa Garcia, University of Osaka (tentatively confirmed)</li>
-            <li>Dr. Ryo Yonetani, Cyber Agent (tentatively confirmed)</li>
-        </ul>
+        <div className="grid sm:grid-cols-4 grid-cols-2 mt-4">
+            <PersonAvatar name="Asim Munawar" image="/AsimMunawar.jpg" affiliation={"IBM Research, US"} />
+            <PersonAvatar name="April Pyone Maung Maung" image="/avatar.jpg" affiliation={"National Institute of Informatics, Japan"} />
+        </div>
+
     </div>
 }
 export default Speakers;
