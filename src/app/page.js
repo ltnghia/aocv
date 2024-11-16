@@ -11,6 +11,7 @@ import CallForPapers from "./components/callforpapers";
 import Challenge from "./components/challenge";
 import ImportantDates from "./components/importantdates";
 import TechnicalSupporters from "./components/technical-supporters";
+import AcceptedPapers from "./components/acceptedpapers";
 export default function Home() {
   const topClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -39,6 +40,9 @@ export default function Home() {
         <a className={button} href="#workshop">
           Workshop
         </a>
+        <a className={button} href="#acceptedpapers">
+          Accepted Papers
+        </a>
         <a className={button} href="#callforpapers">
           Call for Papers
         </a>
@@ -56,6 +60,7 @@ export default function Home() {
         </a>
       </div>
       <Section title={""} body={<Workshop />} className={"mt-8"} id="workshop" />
+      <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
       <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
       <Section title={"LAVA Challenge"} body={<Challenge />} id="challenge" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
