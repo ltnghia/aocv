@@ -1,3 +1,6 @@
+import PersonAvatar from "./person-avatar";
+
+
 const Speakers = ()=>{
     return <div> 
         <div className="grid sm:grid-cols-4 grid-cols-2 mt-4">
