@@ -3,7 +3,8 @@ import PersonAvatar from "./person-avatar";
 
 const Speakers = ()=>{
     return <div> 
-        <div className="grid sm:grid-cols-4 grid-cols-2 mt-4">
+{/*         <div className="grid sm:grid-cols-4 grid-cols-2 mt-4"> */}
+        <div className="grid grid-cols-1 mt-4 gap-4">
             <PersonAvatar name="Asim Munawar" image="/AsimMunawar.jpg" affiliation={"IBM Research, US"} />
             <p>
             <b>LLM-Based Reasoning: Opportunities and Pitfalls </b>
