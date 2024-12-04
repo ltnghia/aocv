@@ -2,7 +2,7 @@ import PersonAvatar from "./person-avatar";
 
 const Speakers = () => {
     return (
-        <div className="text-left">
+        <div>
             <div className="grid grid-cols-1 mt-4 gap-4">
                 <div>
                     <PersonAvatar
