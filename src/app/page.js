@@ -55,9 +55,9 @@ export default function Home() {
         <a className={button} href="#speakers">
           Speakers
         </a>
-        // <a className={button} href="#organizers">
-        //   Organizers
-        // </a>
+        <a className={button} href="#organizers">
+          Organizers
+        </a>
         <a className={button} href="/workshop">
           Workshop
         </a>
