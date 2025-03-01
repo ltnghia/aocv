@@ -13,7 +13,7 @@ const Header = ()=>{
                 <div className="text-[0.8em] text-center ">
                     <span className={highlight}>La</span>rge <span className={highlight}>V</span>ision – Language Model Learning and <span className={highlight}>A</span>pplications 
                 </div>
-                <div className="text-[0.55em]  text-white text-center ">
+                <div className="text-[0.55em]  text-white text-center mt-5">
                     Dublin, Ireland 27 - 31.10.2025
                 </div>
             </div>
