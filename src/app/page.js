@@ -58,6 +58,9 @@ export default function Home() {
         <a className={button} href="#organizers">
           Organizers
         </a>
+        <a className={button} href="/archive/2024">
+          2024
+        </a>
       </div>
       <Section title={""} body={<Workshop />} className={"mt-8"} id="workshop" />
       <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
