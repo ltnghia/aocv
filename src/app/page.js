@@ -37,24 +37,24 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center   sm:px-24 px-4 ">
       <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center">
-        // <a className={button} href="#workshop">
-        //   Workshop
-        // </a>
-        // <a className={button} href="#acceptedpapers">
-        //   Accepted Papers
-        // </a>
-        // <a className={button} href="#callforpapers">
-        //   Call for Papers
-        // </a>
-        // <a className={button} href="#challenge">
-        //   Challenge
-        // </a>
-        // <a className={button} href="#schedule">
-        //   Schedule
-        // </a>
-        // <a className={button} href="#speakers">
-        //   Speakers
-        // </a>
+        <a className={button} href="#workshop">
+          Workshop
+        </a>
+        <a className={button} href="#acceptedpapers">
+          Accepted Papers
+        </a>
+        <a className={button} href="#callforpapers">
+          Call for Papers
+        </a>
+        <a className={button} href="#challenge">
+          Challenge
+        </a>
+        <a className={button} href="#schedule">
+          Schedule
+        </a>
+        <a className={button} href="#speakers">
+          Speakers
+        </a>
         // <a className={button} href="#organizers">
         //   Organizers
         // </a>
