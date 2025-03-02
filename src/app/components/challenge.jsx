@@ -16,8 +16,8 @@ const Challenge = () => {
 
                 <br />
                 <div className="flex sm:flex-row flex-col">
-                    <Image src=`${imagePrefix}/sample1.png`} width={600} height={250} />
-                    <Image src=`${imagePrefix}/sample2.png`} width={500} height={250} />
+                    <Image src={`${imagePrefix}/sample1.png`} width={600} height={250} />
+                    <Image src={`${imagePrefix}/sample2.png`} width={500} height={250} />
                     
                 </div>
                 <Image src="/sample3.png" width={500} height={250} />
