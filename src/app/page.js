@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import Workshop from "./components/workshop";
 import CallForPapers from "./components/callforpapers";
 import ImportantDates from "./components/importantdates";
-import TechnicalSupporters from "./components/technical-supporters";
+// import TechnicalSupporters from "./components/technical-supporters";
 import AcceptedPapers from "./components/acceptedpapers";
 import { imagePrefix } from "../constant.js";
 export default function Home() {
