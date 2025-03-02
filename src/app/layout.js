@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "LAVA-Workshop"
+  title: "AOCV-Workshop"
 };
 
 export default function RootLayout({ children }) {
