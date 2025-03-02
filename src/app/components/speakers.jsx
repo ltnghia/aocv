@@ -1,5 +1,5 @@
 import PersonAvatar from "./person-avatar";
-
+import { imagePrefix } from "../../constant.js";
 const Speakers = () => {
     return (
         <div>
@@ -7,7 +7,7 @@ const Speakers = () => {
                 <div>
                     <PersonAvatar
                         name="Asim Munawar"
-                        image="/AsimMunawar.jpg"
+                        image=`${imagePrefix}/AsimMunawar.jpg`}
                         affiliation="IBM Research, US"
                     />
                     <p>
@@ -20,7 +20,7 @@ const Speakers = () => {
                 <div>
                     <PersonAvatar
                         name="April Pyone Maung Maung"
-                        image="/Maung.jpg"
+                        image=`${imagePrefix}/Maung.jpg`}
                         affiliation="National Institute of Informatics, Japan"
                     />
                     <p>
