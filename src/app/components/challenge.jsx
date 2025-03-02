@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { imagePrefix } from "../../constant.js";
 const Challenge = () => {
     return (
         <div className="text-justify">
@@ -16,8 +16,8 @@ const Challenge = () => {
 
                 <br />
                 <div className="flex sm:flex-row flex-col">
-                    <Image src="/sample1.png" width={600} height={250} />
-                    <Image src="/sample2.png" width={500} height={250} />
+                    <Image src=`${imagePrefix}/sample1.png`} width={600} height={250} />
+                    <Image src=`${imagePrefix}/sample2.png`} width={500} height={250} />
                     
                 </div>
                 <Image src="/sample3.png" width={500} height={250} />
