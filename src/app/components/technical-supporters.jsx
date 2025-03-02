@@ -5,7 +5,7 @@ const TechnicalSupporters = ()=>{
          
         <div className="grid sm:grid-cols-4 grid-cols-2 mt-4">
             <PersonAvatar name="Duy-Nam Ly" image={`${imagePrefix}/ldnam.jpg`} affiliation={"University of Science, Vietnam"} />
-            <PersonAvatar name="Viet-Tham Huynh" image={`${imagePrefix}/dtle.png`} affiliation={"University of Science, Vietnam"} />
+            
         </div>
 
         <br/>
