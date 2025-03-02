@@ -8,10 +8,10 @@ const Header = ()=>{
                      <span className="text-white tracking-[0.35em] font-semibold">LAVA </span>
                 </div>
                 <div className="text-[0.8em] text-center mt-2">
-                    ACM MM 2025 Workshop and Grand Challenge on 
+                    ACM Multimedia 2025 Workshop on  
                 </div>
                 <div className="text-[0.8em] text-center ">
-                    <span className={highlight}>La</span>rge <span className={highlight}>V</span>ision – Language Model Learning and <span className={highlight}>A</span>pplications 
+                    Ambiguous Object Analysis in Computer Vision (AOCV) 
                 </div>
                 <div className="text-[0.55em]  text-white text-center mt-5">
                     Dublin, Ireland 27 - 31.10.2025
