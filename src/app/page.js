@@ -55,7 +55,8 @@ export default function Home() {
           Organizers
         </a>
       </div>
-      
+
+      <Section body={<Workshop />} id="workshop" />
       <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
       <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
