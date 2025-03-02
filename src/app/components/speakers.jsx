@@ -7,7 +7,7 @@ const Speakers = () => {
                 <div>
                     <PersonAvatar
                         name="Asim Munawar"
-                        image=`${imagePrefix}/AsimMunawar.jpg`}
+                        image={`${imagePrefix}/AsimMunawar.jpg`}
                         affiliation="IBM Research, US"
                     />
                     <p>
@@ -20,7 +20,7 @@ const Speakers = () => {
                 <div>
                     <PersonAvatar
                         name="April Pyone Maung Maung"
-                        image=`${imagePrefix}/Maung.jpg`}
+                        image={`${imagePrefix}/Maung.jpg`}
                         affiliation="National Institute of Informatics, Japan"
                     />
                     <p>
