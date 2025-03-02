@@ -5,8 +5,6 @@ const nextConfig = {
     reactStrictMode: true,
     images: { 
         unoptimized: true,
-        loader:"custom",
-        loaderFile: 'src/custom-image-loader.js',
     },
     basePath: '/aocv'
 };
