@@ -64,7 +64,7 @@ export default function Home() {
       <Section title={"Speakers"} body={<Speakers />} id="speakers" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
       <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" />
-      </div>
+
     </main>
   );
 }
