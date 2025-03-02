@@ -12,6 +12,7 @@ import Challenge from "./components/challenge";
 import ImportantDates from "./components/importantdates";
 import TechnicalSupporters from "./components/technical-supporters";
 import AcceptedPapers from "./components/acceptedpapers";
+import { imagePrefix } from "../constant.js";
 export default function Home() {
   const topClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -72,7 +73,7 @@ export default function Home() {
         body={
           <div className="flex flex-row w-full justify-center items-center ">
             <div className="flex flex-col justify-center ">
-              <Image src="/BeyondAI.jpg" alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
+              <Image src={`${imagePrefix}/BeyondAI.jpg`} alt="BeyondAI" width={200} height={200} className="sm:w-[18m] w-[12em]" />
             </div>
           </div>
 
