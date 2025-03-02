@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Section from "./components/section";
-import Introduction from "./components/introduction";
 import Schedule from "./components/schedule";
 import Speakers from "./components/speakers";
 import Organizers from "./components/organizers";
