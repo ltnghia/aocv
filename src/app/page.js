@@ -8,7 +8,6 @@ import Organizers from "./components/organizers";
 import { useEffect } from "react";
 import Workshop from "./components/workshop";
 import CallForPapers from "./components/callforpapers";
-import Challenge from "./components/challenge";
 import ImportantDates from "./components/importantdates";
 import TechnicalSupporters from "./components/technical-supporters";
 import AcceptedPapers from "./components/acceptedpapers";
@@ -38,30 +37,31 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center   sm:px-24 px-4 ">
       <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center">
-        // <a className={button} href="#acceptedpapers">
-        //   Accepted Papers
-        // </a>
         <a className={button} href="#callforpapers">
           Call for Papers
         </a>
         <a className={button} href="#importantdates">
           Important Dates
         </a>
+        <a className={button} href="#acceptedpapers">
+          Accepted Papers
+        </a>
         <a className={button} href="#schedule">
           Schedule
         </a>
-        // <a className={button} href="#speakers">
-        //   Speakers
-        // </a>
+        <a className={button} href="#speakers">
+          Speakers
+        </a>
         <a className={button} href="#organizers">
           Organizers
         </a>
       </div>
-      //<Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
+      
       <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
+      <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
       <Section title={"Workshop Schedule"} body={<Schedule />} id="schedule" />
-      //<Section title={"Speakers"} body={<Speakers />} id="speakers" />
+      <Section title={"Speakers"} body={<Speakers />} id="speakers" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
       <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" />
       </div>
