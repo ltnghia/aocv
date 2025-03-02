@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { imagePrefix } from "../constant.js";
+import { imagePrefix } from "../../constant.js";
 const Footer = () => {
     return (
         <footer className="h-[10em] ">
