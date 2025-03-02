@@ -63,7 +63,7 @@ export default function Home() {
       <Section title={"Workshop Schedule"} body={<Schedule />} id="schedule" />
       <Section title={"Speakers"} body={<Speakers />} id="speakers" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
-      // <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" />
+  {/* <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" /> */}
       <div className="fixed bottom-6 right-6">
         <button id="backToTop" className="bg-[#01305f] hover:bg-[#234880] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>
           <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
