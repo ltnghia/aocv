@@ -9,6 +9,7 @@ const Organizers = ()=>{
             <PersonAvatar name="Trung-Nghia Le" image={`${imagePrefix}/ltnghia.jpg`} affiliation={"University of Science, Vietnam"} /> 
             <PersonAvatar name="Khanh-Duy Le" image={`${imagePrefix}/ldnam.jpg`} affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Duy-Nam Ly" image={`${imagePrefix}/ldnam.jpg`} affiliation={"University of Science, Vietnam"} />
+            <PersonAvatar name="Viet-Tham Huynh" image={`${imagePrefix}/ldnam.jpg`} affiliation={"University of Science, Vietnam"} />
             <PersonAvatar name="Thanh-Toan Do" image={`${imagePrefix}/ldnam.jpg`} affiliation={"Monash University, Australia"} />
             <PersonAvatar name="Vinh-Tiep Nguyen" image={`${imagePrefix}/ldnam.jpg`} affiliation={"University of Information Technology, Vietnam"} />
         </div>
