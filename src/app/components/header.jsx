@@ -14,7 +14,7 @@ const Header = ()=>{
                     ACM Multimedia 2025
                 </div>
                 <div className="text-[0.55em]  text-white text-center mt-5">
-                    Dublin, Ireland 27 - 31.10.2025
+                    Dublin, Ireland, Oct. 27-31, 2025
                 </div>
             </div>
            
