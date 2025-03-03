@@ -5,6 +5,10 @@ const CallForPapers = () => {
             <p className="text-pretty mb-2">
             We welcome people to submit papers about ambiguous object analysis to AOCV workshop. Accepted papers will be presented in our workshop and will be published in the ACM MM workshop proceeding. <span className="font-bold">We accept short papers (non-archived) which are up to 8 pages in ACM MM format, excluding references; and long papers (archived) which are up to 4 pages in ACM MM format, excluding references.</span> Submission policies adhere to the ACM MM submission policies.
             </p>
+
+            <p className="text-pretty mb-2">
+            <span className="font-bold">We accept short papers (non-archived) which are up to 4 pages in ACM MM format, excluding references; and long papers (archived) which are up to 8 pages in ACM MM format, excluding references.</span> Submission policies adhere to the ACM MM submission policies.
+            </p>
             
             <p>The topics in this workshop will include but are not limited to:</p>
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
