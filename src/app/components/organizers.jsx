@@ -14,7 +14,7 @@ const Organizers = ()=>{
             <PersonAvatar name="Vinh-Tiep Nguyen" image={`${imagePrefix}/nvtiep.png`} affiliation={"University of Information Technology, Vietnam"} />
         </div>
 
-        Contact: ltnghia@fit.hcmus.edu.vn
+        Contact: <a href="mailto:ltnghia@fit.hcmus.edu.vn">ltnghia@fit.hcmus.edu.vn</a>
     </div>
 }
 export default Organizers;
