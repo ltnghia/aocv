@@ -25,7 +25,7 @@ const CallForPapers = () => {
                 <li>Uncertainty analysis</li>
                 <li>Applications</li>
             </ul>
-            <span className="font-bold text-[1.3em]"><a href='https://cmt3.research.microsoft.com/AOCV25' className="underline text-[1.1em] text-[#232ba1]">Submit your paper here</a></span>.
+            <span className="font-bold text-[1.3em]"><a href='https://openreview.net/group?id=acmmm.org/ACMMM/2025/Workshop/AOCV' className="underline text-[1.1em] text-[#232ba1]">Submit your paper here</a></span>.
                 
         </div>
     )
