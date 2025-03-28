@@ -7,7 +7,7 @@ const CallForPapers = () => {
             </p>
             <br/>
             <p className="text-pretty mb-2">
-            <span className="font-bold">We accept short papers (non-archived) which are up to 4 pages in ACM MM format, excluding references; and long papers (archived) which are up to 8 pages in ACM MM format, excluding references.</span> Submission policies adhere to the ACM MM submission policies.
+            <span className="font-bold">We accept short papers (non-archived) which are up to 4 pages in ACM MM format, excluding references; and long papers (archived) which are up to 8 pages in ACM MM format, excluding references.</span> Submission policies adhere to <span className="font-bold"><a href='https://acmmm2025.org/information-for-authors' className="underline text-[1.1em]">the ACM MM 2025 submission policies</a></span>.
             </p>
             <br/>
             <p>The topics in this workshop will include but are not limited to:</p>
