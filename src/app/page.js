@@ -42,15 +42,15 @@ export default function Home() {
         <a className={button} href="#importantdates">
           Important Dates
         </a>
-        {/* <a className={button} href="#acceptedpapers">
+        <a className={button} href="#acceptedpapers">
           Accepted Papers
-        </a> */}
+        </a>
         <a className={button} href="#schedule">
           Schedule
         </a>
-        <a className={button} href="#speakers">
+        {/* <a className={button} href="#speakers">
           Speakers
-        </a>
+        </a> */}
         <a className={button} href="#organizers">
           Organizers
         </a>
@@ -59,9 +59,9 @@ export default function Home() {
       <Section body={<Workshop />} id="workshop" />
       <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
       <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" />
-      {/* <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" /> */}
+      <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" />
       <Section title={"Workshop Schedule"} body={<Schedule />} id="schedule" />
-      <Section title={"Speakers"} body={<Speakers />} id="speakers" />
+      {/* <Section title={"Speakers"} body={<Speakers />} id="speakers" /> */}
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
   {/* <Section title={"Technical Supporters"} body={<TechnicalSupporters />} id="TechnicalSupporters" /> */}
       <div className="fixed bottom-6 right-6">
