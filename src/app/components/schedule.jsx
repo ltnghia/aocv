@@ -52,7 +52,7 @@ const Schedule = () => {
           <em>Harvesting Temporal Correlation in Large Vision-Language Models: Using Pose Estimation as a Case Study</em>
         </li>
         <li>
-          <strong>11:15</strong> – Nam Nguyen Xuan (online):{" "}
+          <strong>11:15</strong> – Nguyen Xuan Nam (online):{" "}
           <em>StructCon-ST: Connectivity-Aware Spatio-Temporal Fine-Grained Image Analysis</em>
         </li>
         <li>
