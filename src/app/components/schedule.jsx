@@ -13,7 +13,6 @@ const Schedule = () => {
         at ACM Multimedia 2025.
       </p>
 
-      <h2 className="text-xl font-bold mb-2">LAVA–AOCV Workshop Schedule</h2>
       <p className="mb-4">
         <strong>Date:</strong> October 31st, 2025 (Friday), 9:00 AM – 11:30 AM (GMT+1)
         <br />
